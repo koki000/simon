@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Simon" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="http://pejcicnikola.com/simon/screenshot.jpg" />
+        <meta property="og:url" content="http://www.pejcicnikola.com/simon/" />
+        <meta property="og:description" content="Popular Simon game in a slightly different environment. Remember and repeat the tones played by Simon." />
+    
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+        <link href="css/custom.css" rel="stylesheet">  
+     
+    </head>
+    <body>
+        <div class="header">
+            <a id="logo" href="#">SIMON</a>
+            <div class="wrap-round">
+                <p>Round</p>
+                <div class="round">--</div>
+            </div>
+        </div>
+        <div class="content">
+        <div class="status">
+            <p>Simon is not ready!</p>
+            <p>push the power button</p>
+        </div>
+        <div class="board">
+            <div id='square1' data-key="1"></div>
+            <div id='square2' data-key="2"></div>
+            <div id='square3' data-key="3"></div>
+            <div id='square4' data-key="4"></div>
+        </div>
+        </div>
+        <div class="footer">
+            <a role="button" id="start" class="btn" data-key="start">START</a>
+            <a role="button" id="on-of" class="btn power" data-key="on-of">POWER ON/OFF</a>
+            <a role="button" id="strict" class="btn" data-key="strict">STRICT</a>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/jquery.mobile.custom.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
+
